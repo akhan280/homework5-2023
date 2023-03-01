@@ -5,21 +5,12 @@
     to {width: 475px; opacity: 1;}
 }
 
-
 #logo {
 animation: 5s;
 animation-iteration-count: 1;
 animation-name: animateLogo;
 }
 
-.nav_links {
-    display: flex;
-    flex-direction: column; /* confused what this does */
-    }
-
-.nav_links li a:visited {
-color: blue;
-}
 
 body {
 font-family: "Poppins", serif;
@@ -33,6 +24,14 @@ align-items: center;
 flex-direction: column;
 }
 
+.nav_links {
+display: flex;
+flex-direction: column; /* confused what this does */
+}
+
+.nav_links li a:visited {
+color: blue;
+}
 
 .card > header {
 background: #288088;
@@ -55,7 +54,7 @@ justify-items: center;
 align-items: center;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: center;
 }
 
 .gallery img {
